@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+     <title>GuessSkills</title>
+
+     <!-- Bootstrap -->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+     <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+     <!-- Application -->
+     <link href="css/app.css" rel="stylesheet">
+
+</head>
+
+<body>
+     <div class="container">
+          <div class="jumbotron text-center">
+               <h1>Guessing Skills</h1>
+               <h3>Outsmart the Ethereum Blockchain</h3>
+               <h5>Account: <span id="account">account</span></h5>
+               <h5>Balance: <span id="accountBalance">balance</span></h5>
+
+          </div>
+
+          <div class="" id="results">
+            <h2 class="text-center" id="result_string">Pick four Single Digit Numbers</h2>
+          </div>
+
+       <form class="" action="index.html" method="post">
+         <div class="form-group row">
+           <label for="guess0" class="col-sm-2 col-form-label">guess 0</label>
+           <div class="col-sm-10">
+             <input type="number" min="0" max="9" step="1" value="0" name="guess0" id="input_guess0">
+             <small id = "guessHelp" class="form-text text-muted">Please pick 0 - 9 for all 4 guesses, default is 0.</small>
+           </div>
+
+        </div>
+        <div class="form-group row">
+          <label for="guess1" class="col-sm-2 col-form-label">guess 1</label>
+          <div class="col-sm-10">
+            <input type="number" min="0" max="9" step="1" value="0" name="guess1" id="input_guess1">
+          </div>
+
+       </div>
+       <div class="form-group row">
+         <label for="guess2" class="col-sm-2 col-form-label">guess 2</label>
+         <div class="col-sm-10">
+           <input type="number" min="0" max="9" step="1" value="0" name="guess2" id="input_guess2">
+         </div>
+
+      </div>
+      <div class="form-group row">
+        <label for="guess3" class="col-sm-2 col-form-label">guess 3</label>
+        <div class="col-sm-10">
+          <input type="number" min="0" max="9" step="1" value="0" name="guess3" id="input_guess3">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" onclick="App.createGuesses(); return false;">Submit</button>
+      <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#correctModal" onclick="App.getArray(); return false;">Show the Correct Calls</button>
+
+       </form>
+
+       <div class="modal fade" id="correctModal">
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title">Correct Guesses</h5>
+               <button type="button" name="button" class="close"></button>
+             </div>
+             <div class="modal-body">
+               Here are the correct guesses
+               <ul class="list-group">
+                 <li class = "list-group-item" id="correct_0">1</li>
+                 <li class = "list-group-item" id="correct_1">0</li>
+                 <li class = "list-group-item" id="correct_2">2</li>
+                 <li class = "list-group-item" id="correct_3">5</li>
+
+               </ul>
+             </div>
+
+           </div>
+
+         </div>
+
+       </div>
+
+     <div id="footer" class="container">
+          <nav class="navbar navbar-default navbar-fixed-bottom">
+               <div class="navbar-inner navbar-content-center text-center">
+                    <p class="text-muted" credit>Guess Skills - &copy; 2018 </p>
+               </div>
+          </nav>
+     </div>
+</div>
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/web3.min.js"></script>
+     <script src="js/truffle-contract.js"></script>
+     <script src="js/app.js"></script>
+</body>
+
+</html>
