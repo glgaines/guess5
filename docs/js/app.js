@@ -57,7 +57,7 @@ App = {
 
     App.contracts.Guess4.deployed().then(function(instance) {
       _instance = instance;
-      return instance.createGuesses(_guess0, _guess1, _guess2, _guess3,{from:App.account,gas: 500000})
+      return _instance.createGuesses(_guess0, _guess1, _guess2, _guess3,{from:App.account,gas: 500000})
     }).then(function() {
       return _instance.testCalls();
     }).then(function(result) {
