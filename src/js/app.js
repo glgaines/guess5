@@ -64,11 +64,11 @@ App = {
     // }).then(function(result) {
     //   $("#result_string").text(result);
     //   $("#result_string").fadeIn('slow');
-    // });
+     });
 
-  testCalls: function() {
-    _instance.testCalls().then(function(results) {
-    });
+  // testCalls: function() {
+  //   _instance.testCalls().then(function(results) {
+  //   });
   },
 
   getArray: function() {
