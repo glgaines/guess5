@@ -64,6 +64,12 @@ App = {
     // }).then(function(result) {
       $("#result_string").text(result[1]);
       $("#result_string").fadeIn('slow');
+
+      $("#correct_0").text(result[0][0].toNumber());
+      $("#correct_1").text(result[0][1].toNumber());
+      $("#correct_2").text(result[0][2].toNumber());
+      $("#correct_3").text(result[0][3].toNumber());
+      console.log(result[0][4].toNumber());
      });
 
   // testCalls: function() {
