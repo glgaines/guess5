@@ -52,11 +52,11 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506104f18061005e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063232880511461005157806341c0e1b514610143575b600080fd5b341561005c57600080fd5b610099600480803560ff1690602001909190803560ff1690602001909190803560ff1690602001909190803560ff16906020019091905050610158565b6040518083600560200280838360005b838110156100c45780820151818401526020810190506100a9565b5050505090500180602001828103825283818151815260200191508051906020019080838360005b838110156101075780820151818401526020810190506100ec565b50505050905090810190601f1680156101345780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b341561014e57600080fd5b6101566103cd565b005b61016061045e565b610168610486565b61017061045e565b61017861049a565b600080610183610486565b600080898b8d8f0101019450600093508c8660006004811015156101a357fe5b602002019060ff16908160ff16815250508b8660016004811015156101c457fe5b602002019060ff16908160ff16815250508a8660026004811015156101e557fe5b602002019060ff16908160ff16815250508986600360048110151561020657fe5b602002019060ff16908160ff16815250508460ff166103e84281151561022857fe5b0401915060028281151561023857fe5b0687600060058110151561024857fe5b60200201818152505060038281151561025d57fe5b0687600160058110151561026d57fe5b60200201818152505060058281151561028257fe5b0687600260058110151561029257fe5b6020020181815250506007828115156102a757fe5b068760036005811015156102b757fe5b602002018181525050818760046005811015156102d057fe5b602002018181525050600090505b60048160ff1610156103b757858160ff166004811015156102fb57fe5b602002015160ff16878260ff1660058110151561031457fe5b602002015114156103285783806001019450505b60048460ff161415610371576040805190810160405280601981526020017f796f7520676f742074686520435446203078303030313233340000000000000081525092506103aa565b6040805190810160405280600981526020017f54727920616761696e000000000000000000000000000000000000000000000081525092505b80806001019150506102de565b8683985098505050505050505094509492505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561045c576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60a0604051908101604052806005905b600081526020019060019003908161046e5790505090565b602060405190810160405280600081525090565b6080604051908101604052806004905b600060ff168152602001906001900390816104aa57905050905600a165627a7a723058208fcffdde5147cd0b23bd7b102e8097902d5b50933ce480a6179743f558bfd52a0029",
-  "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063232880511461005157806341c0e1b514610143575b600080fd5b341561005c57600080fd5b610099600480803560ff1690602001909190803560ff1690602001909190803560ff1690602001909190803560ff16906020019091905050610158565b6040518083600560200280838360005b838110156100c45780820151818401526020810190506100a9565b5050505090500180602001828103825283818151815260200191508051906020019080838360005b838110156101075780820151818401526020810190506100ec565b50505050905090810190601f1680156101345780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b341561014e57600080fd5b6101566103cd565b005b61016061045e565b610168610486565b61017061045e565b61017861049a565b600080610183610486565b600080898b8d8f0101019450600093508c8660006004811015156101a357fe5b602002019060ff16908160ff16815250508b8660016004811015156101c457fe5b602002019060ff16908160ff16815250508a8660026004811015156101e557fe5b602002019060ff16908160ff16815250508986600360048110151561020657fe5b602002019060ff16908160ff16815250508460ff166103e84281151561022857fe5b0401915060028281151561023857fe5b0687600060058110151561024857fe5b60200201818152505060038281151561025d57fe5b0687600160058110151561026d57fe5b60200201818152505060058281151561028257fe5b0687600260058110151561029257fe5b6020020181815250506007828115156102a757fe5b068760036005811015156102b757fe5b602002018181525050818760046005811015156102d057fe5b602002018181525050600090505b60048160ff1610156103b757858160ff166004811015156102fb57fe5b602002015160ff16878260ff1660058110151561031457fe5b602002015114156103285783806001019450505b60048460ff161415610371576040805190810160405280601981526020017f796f7520676f742074686520435446203078303030313233340000000000000081525092506103aa565b6040805190810160405280600981526020017f54727920616761696e000000000000000000000000000000000000000000000081525092505b80806001019150506102de565b8683985098505050505050505094509492505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561045c576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60a0604051908101604052806005905b600081526020019060019003908161046e5790505090565b602060405190810160405280600081525090565b6080604051908101604052806004905b600060ff168152602001906001900390816104aa57905050905600a165627a7a723058208fcffdde5147cd0b23bd7b102e8097902d5b50933ce480a6179743f558bfd52a0029",
-  "sourceMap": "26:2860:1:-;;;401:64;;;;;;;;445:10;437:5;;:18;;;;;;;;;;;;;;;;;;26:2860;;;;;;",
-  "deployedSourceMap": "26:2860:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1221:1111;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;471:85:1;;;;;;;;;;;;;;1221:1111;1321:7;;:::i;:::-;1330:6;;:::i;:::-;1347:26;;:::i;:::-;1382:23;;:::i;:::-;1414:11;1470:18;1501:27;;:::i;:::-;1680:12;1943:7;1455:6;1446;1437;1428;:15;:24;:33;1414:47;;1491:1;1470:22;;1579:6;1566:7;1574:1;1566:10;;;;;;;;;;;;:19;;;;;;;;;;;1607:6;1594:7;1602:1;1594:10;;;;;;;;;;;;:19;;;;;;;;;;;1635:6;1622:7;1630:1;1622:10;;;;;;;;;;;;:19;;;;;;;;;;;1663:6;1650:7;1658:1;1650:10;;;;;;;;;;;;:19;;;;;;;;;;;1707:5;1696:16;;1700:4;1696:3;:8;;;;;;;;:16;1680:32;;1783:1;1773:7;:11;;;;;;;;1756;1768:1;1756:14;;;;;;;;;;;;:28;;;;;1820:1;1810:7;:11;;;;;;;;1793;1805:1;1793:14;;;;;;;;;;;;:28;;;;;1857:1;1847:7;:11;;;;;;;;1830;1842:1;1830:14;;;;;;;;;;;;:28;;;;;1894:1;1884:7;:11;;;;;;;;1867;1879:1;1867:14;;;;;;;;;;;;:28;;;;;1921:7;1904:11;1916:1;1904:14;;;;;;;;;;;;:24;;;;;1953:1;1943:11;;1939:309;1960:1;1956;:5;;;1939:309;;;2001:7;2009:1;2001:10;;;;;;;;;;;;;;;1983:28;;:11;1995:1;1983:14;;;;;;;;;;;;;;;:28;1980:78;;;2030:14;;;;;;;1980:78;2090:14;2074:12;:30;;;2070:169;;;2120:43;;;;;;;;;;;;;;;;;;;;2070:169;;;2198:27;;;;;;;;;;;;;;;;;;;;2070:169;1963:3;;;;;;;1939:309;;;2295:11;2308:13;2287:35;;;;1221:1111;;;;;;;;;;;;;;:::o;471:85::-;522:5;;;;;;;;;;;508:19;;:10;:19;;;505:43;;;542:5;;;;;;;;;;;529:19;;;505:43;471:85::o;26:2860::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.4.17;\r\ncontract Guess4 {\r\n    //global variables\r\n    address owner;\r\n    address creator;\r\n    //bytes32[4] bytesArray; // size must be fixed\r\n  //  uint[5] resultArray;\r\n    //uint8 correctCount = 0;\r\n  //  uint8[4] guesses;\r\n\r\n  //  uint _guess1;\r\n\r\n    //modifiers\r\n    modifier restricted() {\r\n        require(msg.sender == owner);\r\n        _;\r\n    }\r\n\r\n    // initialize\r\n    function Guess4() public {\r\n        owner = msg.sender;\r\n\r\n    }\r\n    function kill() public {\r\n        if(msg.sender == owner) selfdestruct(owner);\r\n    }\r\n    /* function  time_call(uint8 _adder) public{\r\n        //uint[5] resultArray;\r\n        uint adder = _adder;\r\n        uint timeNow  = now/1000 + adder;\r\n        //resultArray[0] = timeNow;\r\n        resultArray[0] = timeNow % 2;\r\n        resultArray[1] = timeNow % 3;\r\n        resultArray[2] = timeNow % 5;\r\n        resultArray[3] = timeNow % 7;\r\n        resultArray[4] = timeNow;\r\n        //resultArray[4] = timeNow % 10;\r\n    } */\r\n\r\n    /* function getArray() constant public returns ( uint[5])\r\n    {\r\n        return resultArray;\r\n    }\r\n\r\n    function getValue(uint8 x) constant public returns (uint)\r\n    {\r\n        return resultArray[x];\r\n    } */\r\n\r\n    function createGuesses(uint8 guess0, uint8 guess1, uint8 guess2, uint8 guess3) public view returns (uint[5], string) {\r\n      uint[5] memory resultArray;\r\n      uint8[4] memory guesses;\r\n      uint8 adder = guess0 + guess1 + guess2 + guess3;\r\n      uint8 correctCount = 0;\r\n      string memory result_answer;\r\n      //result_answer = \"\";\r\n      guesses[0] = guess0;\r\n      guesses[1] = guess1;\r\n      guesses[2] = guess2;\r\n      guesses[3] = guess3;\r\n\r\n      uint timeNow  = now/1000 + adder;\r\n      //resultArray[0] = timeNow;\r\n      resultArray[0] = timeNow % 2;\r\n      resultArray[1] = timeNow % 3;\r\n      resultArray[2] = timeNow % 5;\r\n      resultArray[3] = timeNow % 7;\r\n      resultArray[4] = timeNow;\r\n\r\n      for(uint8 i = 0; i < 4; i++){\r\n          if(resultArray[i] == guesses[i]) {\r\n              correctCount++;\r\n          }\r\n          if (correctCount == guesses.length){\r\n            result_answer = \"you got the CTF 0x0001234\";\r\n          } else {\r\n            result_answer = \"Try again\";\r\n          }\r\n      }\r\n      //return result_answer;\r\n      return (resultArray, result_answer);\r\n\r\n    }\r\n\r\n    /* function testCalls()  public view returns (string) {\r\n        uint8 correctCount = 0;\r\n        string memory result_answer;\r\n        result_answer = \"\";\r\n        for(uint8 i = 0; i < 4; i++){\r\n            if(resultArray[i] == guesses[i]) {\r\n                correctCount++;\r\n            }\r\n            if (correctCount == guesses.length){\r\n              result_answer = \"you got the CTF 0x0001234\";\r\n            } else {\r\n              result_answer = \"Try again\";\r\n            }\r\n        }\r\n\r\n        return result_answer;\r\n    } */\r\n/*  */\r\n}\r\n",
+  "bytecode": "0x6060604052341561000f57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506105188061005e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063232880511461005157806341c0e1b514610143575b600080fd5b341561005c57600080fd5b610099600480803560ff1690602001909190803560ff1690602001909190803560ff1690602001909190803560ff16906020019091905050610158565b6040518083600560200280838360005b838110156100c45780820151818401526020810190506100a9565b5050505090500180602001828103825283818151815260200191508051906020019080838360005b838110156101075780820151818401526020810190506100ec565b50505050905090810190601f1680156101345780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b341561014e57600080fd5b6101566103f4565b005b610160610485565b6101686104ad565b610170610485565b6101786104c1565b6000806101836104ad565b600080898b8d8f0101019450600093508c8660006004811015156101a357fe5b602002019060ff16908160ff16815250508b8660016004811015156101c457fe5b602002019060ff16908160ff16815250508a8660026004811015156101e557fe5b602002019060ff16908160ff16815250508986600360048110151561020657fe5b602002019060ff16908160ff16815250508460ff166103e84281151561022857fe5b0401915060028281151561023857fe5b0687600060058110151561024857fe5b60200201818152505060038281151561025d57fe5b0687600160058110151561026d57fe5b60200201818152505060058281151561028257fe5b0687600260058110151561029257fe5b6020020181815250506007828115156102a757fe5b068760036005811015156102b757fe5b602002018181525050818760046005811015156102d057fe5b602002018181525050600090505b60048160ff1610156103de57858160ff166004811015156102fb57fe5b602002015160ff16878260ff1660058110151561031457fe5b602002015114156103285783806001019450505b60048460ff16141561039857606060405190810160405280603381526020017f796f7520676f742074686520466c61673a20205750497b416c6c5f4861696c5f81526020017f5468655f4d69676874795f566974616c696b7d0000000000000000000000000081525092506103d1565b6040805190810160405280600981526020017f54727920616761696e000000000000000000000000000000000000000000000081525092505b80806001019150506102de565b8683985098505050505050505094509492505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610483576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60a0604051908101604052806005905b60008152602001906001900390816104955790505090565b602060405190810160405280600081525090565b6080604051908101604052806004905b600060ff168152602001906001900390816104d157905050905600a165627a7a72305820aa4944c4dec7e545ac2787f20ba557dfe320712775c5d07d581e8734102753300029",
+  "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063232880511461005157806341c0e1b514610143575b600080fd5b341561005c57600080fd5b610099600480803560ff1690602001909190803560ff1690602001909190803560ff1690602001909190803560ff16906020019091905050610158565b6040518083600560200280838360005b838110156100c45780820151818401526020810190506100a9565b5050505090500180602001828103825283818151815260200191508051906020019080838360005b838110156101075780820151818401526020810190506100ec565b50505050905090810190601f1680156101345780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b341561014e57600080fd5b6101566103f4565b005b610160610485565b6101686104ad565b610170610485565b6101786104c1565b6000806101836104ad565b600080898b8d8f0101019450600093508c8660006004811015156101a357fe5b602002019060ff16908160ff16815250508b8660016004811015156101c457fe5b602002019060ff16908160ff16815250508a8660026004811015156101e557fe5b602002019060ff16908160ff16815250508986600360048110151561020657fe5b602002019060ff16908160ff16815250508460ff166103e84281151561022857fe5b0401915060028281151561023857fe5b0687600060058110151561024857fe5b60200201818152505060038281151561025d57fe5b0687600160058110151561026d57fe5b60200201818152505060058281151561028257fe5b0687600260058110151561029257fe5b6020020181815250506007828115156102a757fe5b068760036005811015156102b757fe5b602002018181525050818760046005811015156102d057fe5b602002018181525050600090505b60048160ff1610156103de57858160ff166004811015156102fb57fe5b602002015160ff16878260ff1660058110151561031457fe5b602002015114156103285783806001019450505b60048460ff16141561039857606060405190810160405280603381526020017f796f7520676f742074686520466c61673a20205750497b416c6c5f4861696c5f81526020017f5468655f4d69676874795f566974616c696b7d0000000000000000000000000081525092506103d1565b6040805190810160405280600981526020017f54727920616761696e000000000000000000000000000000000000000000000081525092505b80806001019150506102de565b8683985098505050505050505094509492505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610483576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60a0604051908101604052806005905b60008152602001906001900390816104955790505090565b602060405190810160405280600081525090565b6080604051908101604052806004905b600060ff168152602001906001900390816104d157905050905600a165627a7a72305820aa4944c4dec7e545ac2787f20ba557dfe320712775c5d07d581e8734102753300029",
+  "sourceMap": "26:2886:1:-;;;401:64;;;;;;;;445:10;437:5;;:18;;;;;;;;;;;;;;;;;;26:2886;;;;;;",
+  "deployedSourceMap": "26:2886:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1221:1137;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;471:85:1;;;;;;;;;;;;;;1221:1137;1321:7;;:::i;:::-;1330:6;;:::i;:::-;1347:26;;:::i;:::-;1382:23;;:::i;:::-;1414:11;1470:18;1501:27;;:::i;:::-;1680:12;1943:7;1455:6;1446;1437;1428;:15;:24;:33;1414:47;;1491:1;1470:22;;1579:6;1566:7;1574:1;1566:10;;;;;;;;;;;;:19;;;;;;;;;;;1607:6;1594:7;1602:1;1594:10;;;;;;;;;;;;:19;;;;;;;;;;;1635:6;1622:7;1630:1;1622:10;;;;;;;;;;;;:19;;;;;;;;;;;1663:6;1650:7;1658:1;1650:10;;;;;;;;;;;;:19;;;;;;;;;;;1707:5;1696:16;;1700:4;1696:3;:8;;;;;;;;:16;1680:32;;1783:1;1773:7;:11;;;;;;;;1756;1768:1;1756:14;;;;;;;;;;;;:28;;;;;1820:1;1810:7;:11;;;;;;;;1793;1805:1;1793:14;;;;;;;;;;;;:28;;;;;1857:1;1847:7;:11;;;;;;;;1830;1842:1;1830:14;;;;;;;;;;;;:28;;;;;1894:1;1884:7;:11;;;;;;;;1867;1879:1;1867:14;;;;;;;;;;;;:28;;;;;1921:7;1904:11;1916:1;1904:14;;;;;;;;;;;;:24;;;;;1953:1;1943:11;;1939:335;1960:1;1956;:5;;;1939:335;;;2001:7;2009:1;2001:10;;;;;;;;;;;;;;;1983:28;;:11;1995:1;1983:14;;;;;;;;;;;;;;;:28;1980:78;;;2030:14;;;;;;;1980:78;2090:14;2074:12;:30;;;2070:195;;;2120:69;;;;;;;;;;;;;;;;;;;;;;;;;2070:195;;;2224:27;;;;;;;;;;;;;;;;;;;;2070:195;1963:3;;;;;;;1939:335;;;2321:11;2334:13;2313:35;;;;1221:1137;;;;;;;;;;;;;;:::o;471:85::-;522:5;;;;;;;;;;;508:19;;:10;:19;;;505:43;;;542:5;;;;;;;;;;;529:19;;;505:43;471:85::o;26:2886::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.17;\r\ncontract Guess4 {\r\n    //global variables\r\n    address owner;\r\n    address creator;\r\n    //bytes32[4] bytesArray; // size must be fixed\r\n  //  uint[5] resultArray;\r\n    //uint8 correctCount = 0;\r\n  //  uint8[4] guesses;\r\n\r\n  //  uint _guess1;\r\n\r\n    //modifiers\r\n    modifier restricted() {\r\n        require(msg.sender == owner);\r\n        _;\r\n    }\r\n\r\n    // initialize\r\n    function Guess4() public {\r\n        owner = msg.sender;\r\n\r\n    }\r\n    function kill() public {\r\n        if(msg.sender == owner) selfdestruct(owner);\r\n    }\r\n    /* function  time_call(uint8 _adder) public{\r\n        //uint[5] resultArray;\r\n        uint adder = _adder;\r\n        uint timeNow  = now/1000 + adder;\r\n        //resultArray[0] = timeNow;\r\n        resultArray[0] = timeNow % 2;\r\n        resultArray[1] = timeNow % 3;\r\n        resultArray[2] = timeNow % 5;\r\n        resultArray[3] = timeNow % 7;\r\n        resultArray[4] = timeNow;\r\n        //resultArray[4] = timeNow % 10;\r\n    } */\r\n\r\n    /* function getArray() constant public returns ( uint[5])\r\n    {\r\n        return resultArray;\r\n    }\r\n\r\n    function getValue(uint8 x) constant public returns (uint)\r\n    {\r\n        return resultArray[x];\r\n    } */\r\n\r\n    function createGuesses(uint8 guess0, uint8 guess1, uint8 guess2, uint8 guess3) public view returns (uint[5], string) {\r\n      uint[5] memory resultArray;\r\n      uint8[4] memory guesses;\r\n      uint8 adder = guess0 + guess1 + guess2 + guess3;\r\n      uint8 correctCount = 0;\r\n      string memory result_answer;\r\n      //result_answer = \"\";\r\n      guesses[0] = guess0;\r\n      guesses[1] = guess1;\r\n      guesses[2] = guess2;\r\n      guesses[3] = guess3;\r\n\r\n      uint timeNow  = now/1000 + adder;\r\n      //resultArray[0] = timeNow;\r\n      resultArray[0] = timeNow % 2;\r\n      resultArray[1] = timeNow % 3;\r\n      resultArray[2] = timeNow % 5;\r\n      resultArray[3] = timeNow % 7;\r\n      resultArray[4] = timeNow;\r\n\r\n      for(uint8 i = 0; i < 4; i++){\r\n          if(resultArray[i] == guesses[i]) {\r\n              correctCount++;\r\n          }\r\n          if (correctCount == guesses.length){\r\n            result_answer = \"you got the Flag:  WPI{All_Hail_The_Mighty_Vitalik}\";\r\n          } else {\r\n            result_answer = \"Try again\";\r\n          }\r\n      }\r\n      //return result_answer;\r\n      return (resultArray, result_answer);\r\n\r\n    }\r\n\r\n    /* function testCalls()  public view returns (string) {\r\n        uint8 correctCount = 0;\r\n        string memory result_answer;\r\n        result_answer = \"\";\r\n        for(uint8 i = 0; i < 4; i++){\r\n            if(resultArray[i] == guesses[i]) {\r\n                correctCount++;\r\n            }\r\n            if (correctCount == guesses.length){\r\n              result_answer = \"you got the CTF 0x0001234\";\r\n            } else {\r\n              result_answer = \"Try again\";\r\n            }\r\n        }\r\n\r\n        return result_answer;\r\n    } */\r\n/*  */\r\n}\r\n",
   "sourcePath": "C:\\Users\\glgai\\ChainSkills\\CTF\\guess\\contracts\\guess4.sol",
   "ast": {
     "absolutePath": "/C/Users/glgai/ChainSkills/CTF/guess/contracts/guess4.sol",
@@ -526,7 +526,7 @@
             "body": {
               "id": 254,
               "nodeType": "Block",
-              "src": "1338:994:1",
+              "src": "1338:1020:1",
               "statements": [
                 {
                   "assignments": [],
@@ -1858,7 +1858,7 @@
                   "body": {
                     "id": 248,
                     "nodeType": "Block",
-                    "src": "1967:281:1",
+                    "src": "1967:307:1",
                     "statements": [
                       {
                         "condition": {
@@ -2071,7 +2071,7 @@
                         "falseBody": {
                           "id": 246,
                           "nodeType": "Block",
-                          "src": "2183:56:1",
+                          "src": "2209:56:1",
                           "statements": [
                             {
                               "expression": {
@@ -2088,7 +2088,7 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 139,
-                                  "src": "2198:13:1",
+                                  "src": "2224:13:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
                                     "typeString": "string memory"
@@ -2106,7 +2106,7 @@
                                   "kind": "string",
                                   "lValueRequested": false,
                                   "nodeType": "Literal",
-                                  "src": "2214:11:1",
+                                  "src": "2240:11:1",
                                   "subdenomination": null,
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_stringliteral_dba053fd5b8489d1ee7c7a7bfd239d6da63244925bcb42798b4762d97af9d93b",
@@ -2114,7 +2114,7 @@
                                   },
                                   "value": "Try again"
                                 },
-                                "src": "2198:27:1",
+                                "src": "2224:27:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
                                   "typeString": "string memory"
@@ -2122,17 +2122,17 @@
                               },
                               "id": 245,
                               "nodeType": "ExpressionStatement",
-                              "src": "2198:27:1"
+                              "src": "2224:27:1"
                             }
                           ]
                         },
                         "id": 247,
                         "nodeType": "IfStatement",
-                        "src": "2070:169:1",
+                        "src": "2070:195:1",
                         "trueBody": {
                           "id": 241,
                           "nodeType": "Block",
-                          "src": "2105:72:1",
+                          "src": "2105:98:1",
                           "statements": [
                             {
                               "expression": {
@@ -2159,7 +2159,7 @@
                                 "operator": "=",
                                 "rightHandSide": {
                                   "argumentTypes": null,
-                                  "hexValue": "796f7520676f74207468652043544620307830303031323334",
+                                  "hexValue": "796f7520676f742074686520466c61673a20205750497b416c6c5f4861696c5f5468655f4d69676874795f566974616c696b7d",
                                   "id": 238,
                                   "isConstant": false,
                                   "isLValue": false,
@@ -2167,15 +2167,15 @@
                                   "kind": "string",
                                   "lValueRequested": false,
                                   "nodeType": "Literal",
-                                  "src": "2136:27:1",
+                                  "src": "2136:53:1",
                                   "subdenomination": null,
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_stringliteral_a1fde5545ca5e9f5f868251907483be876317456abc4bca7c91c6c0416f4893b",
-                                    "typeString": "literal_string \"you got the CTF 0x0001234\""
+                                    "typeIdentifier": "t_stringliteral_aa438f005958b5f31de9254930fb05b24c47912300f2036743297e5e77ebbd4f",
+                                    "typeString": "literal_string \"you got the Flag:  WPI{All_Hail_The_Mighty_Vitalik}\""
                                   },
-                                  "value": "you got the CTF 0x0001234"
+                                  "value": "you got the Flag:  WPI{All_Hail_The_Mighty_Vitalik}"
                                 },
-                                "src": "2120:43:1",
+                                "src": "2120:69:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
                                   "typeString": "string memory"
@@ -2183,7 +2183,7 @@
                               },
                               "id": 240,
                               "nodeType": "ExpressionStatement",
-                              "src": "2120:43:1"
+                              "src": "2120:69:1"
                             }
                           ]
                         }
@@ -2330,7 +2330,7 @@
                     "src": "1963:3:1"
                   },
                   "nodeType": "ForStatement",
-                  "src": "1939:309:1"
+                  "src": "1939:335:1"
                 },
                 {
                   "expression": {
@@ -2343,7 +2343,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 116,
-                        "src": "2295:11:1",
+                        "src": "2321:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$5_memory_ptr",
                           "typeString": "uint256[5] memory"
@@ -2356,7 +2356,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 139,
-                        "src": "2308:13:1",
+                        "src": "2334:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -2370,7 +2370,7 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "2294:28:1",
+                    "src": "2320:28:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_array$_t_uint256_$5_memory_ptr_$_t_string_memory_ptr_$",
                       "typeString": "tuple(uint256[5] memory,string memory)"
@@ -2379,7 +2379,7 @@
                   "functionReturnParameters": 111,
                   "id": 253,
                   "nodeType": "Return",
-                  "src": "2287:35:1"
+                  "src": "2313:35:1"
                 }
               ]
             },
@@ -2589,17 +2589,17 @@
               "src": "1320:17:1"
             },
             "scope": 256,
-            "src": "1221:1111:1",
+            "src": "1221:1137:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 257,
-        "src": "26:2860:1"
+        "src": "26:2886:1"
       }
     ],
-    "src": "0:2888:1"
+    "src": "0:2914:1"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/glgai/ChainSkills/CTF/guess/contracts/guess4.sol",
@@ -3069,7 +3069,7 @@
             "body": {
               "id": 254,
               "nodeType": "Block",
-              "src": "1338:994:1",
+              "src": "1338:1020:1",
               "statements": [
                 {
                   "assignments": [],
@@ -4401,7 +4401,7 @@
                   "body": {
                     "id": 248,
                     "nodeType": "Block",
-                    "src": "1967:281:1",
+                    "src": "1967:307:1",
                     "statements": [
                       {
                         "condition": {
@@ -4614,7 +4614,7 @@
                         "falseBody": {
                           "id": 246,
                           "nodeType": "Block",
-                          "src": "2183:56:1",
+                          "src": "2209:56:1",
                           "statements": [
                             {
                               "expression": {
@@ -4631,7 +4631,7 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 139,
-                                  "src": "2198:13:1",
+                                  "src": "2224:13:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
                                     "typeString": "string memory"
@@ -4649,7 +4649,7 @@
                                   "kind": "string",
                                   "lValueRequested": false,
                                   "nodeType": "Literal",
-                                  "src": "2214:11:1",
+                                  "src": "2240:11:1",
                                   "subdenomination": null,
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_stringliteral_dba053fd5b8489d1ee7c7a7bfd239d6da63244925bcb42798b4762d97af9d93b",
@@ -4657,7 +4657,7 @@
                                   },
                                   "value": "Try again"
                                 },
-                                "src": "2198:27:1",
+                                "src": "2224:27:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
                                   "typeString": "string memory"
@@ -4665,17 +4665,17 @@
                               },
                               "id": 245,
                               "nodeType": "ExpressionStatement",
-                              "src": "2198:27:1"
+                              "src": "2224:27:1"
                             }
                           ]
                         },
                         "id": 247,
                         "nodeType": "IfStatement",
-                        "src": "2070:169:1",
+                        "src": "2070:195:1",
                         "trueBody": {
                           "id": 241,
                           "nodeType": "Block",
-                          "src": "2105:72:1",
+                          "src": "2105:98:1",
                           "statements": [
                             {
                               "expression": {
@@ -4702,7 +4702,7 @@
                                 "operator": "=",
                                 "rightHandSide": {
                                   "argumentTypes": null,
-                                  "hexValue": "796f7520676f74207468652043544620307830303031323334",
+                                  "hexValue": "796f7520676f742074686520466c61673a20205750497b416c6c5f4861696c5f5468655f4d69676874795f566974616c696b7d",
                                   "id": 238,
                                   "isConstant": false,
                                   "isLValue": false,
@@ -4710,15 +4710,15 @@
                                   "kind": "string",
                                   "lValueRequested": false,
                                   "nodeType": "Literal",
-                                  "src": "2136:27:1",
+                                  "src": "2136:53:1",
                                   "subdenomination": null,
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_stringliteral_a1fde5545ca5e9f5f868251907483be876317456abc4bca7c91c6c0416f4893b",
-                                    "typeString": "literal_string \"you got the CTF 0x0001234\""
+                                    "typeIdentifier": "t_stringliteral_aa438f005958b5f31de9254930fb05b24c47912300f2036743297e5e77ebbd4f",
+                                    "typeString": "literal_string \"you got the Flag:  WPI{All_Hail_The_Mighty_Vitalik}\""
                                   },
-                                  "value": "you got the CTF 0x0001234"
+                                  "value": "you got the Flag:  WPI{All_Hail_The_Mighty_Vitalik}"
                                 },
-                                "src": "2120:43:1",
+                                "src": "2120:69:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
                                   "typeString": "string memory"
@@ -4726,7 +4726,7 @@
                               },
                               "id": 240,
                               "nodeType": "ExpressionStatement",
-                              "src": "2120:43:1"
+                              "src": "2120:69:1"
                             }
                           ]
                         }
@@ -4873,7 +4873,7 @@
                     "src": "1963:3:1"
                   },
                   "nodeType": "ForStatement",
-                  "src": "1939:309:1"
+                  "src": "1939:335:1"
                 },
                 {
                   "expression": {
@@ -4886,7 +4886,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 116,
-                        "src": "2295:11:1",
+                        "src": "2321:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$5_memory_ptr",
                           "typeString": "uint256[5] memory"
@@ -4899,7 +4899,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 139,
-                        "src": "2308:13:1",
+                        "src": "2334:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -4913,7 +4913,7 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "2294:28:1",
+                    "src": "2320:28:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_array$_t_uint256_$5_memory_ptr_$_t_string_memory_ptr_$",
                       "typeString": "tuple(uint256[5] memory,string memory)"
@@ -4922,7 +4922,7 @@
                   "functionReturnParameters": 111,
                   "id": 253,
                   "nodeType": "Return",
-                  "src": "2287:35:1"
+                  "src": "2313:35:1"
                 }
               ]
             },
@@ -5132,17 +5132,17 @@
               "src": "1320:17:1"
             },
             "scope": 256,
-            "src": "1221:1111:1",
+            "src": "1221:1137:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 257,
-        "src": "26:2860:1"
+        "src": "26:2886:1"
       }
     ],
-    "src": "0:2888:1"
+    "src": "0:2914:1"
   },
   "compiler": {
     "name": "solc",
@@ -5152,8 +5152,8 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0x8f8ec7d7674f1472f13d107e1d477c8cca829079",
-      "transactionHash": "0xa401fe46db2ddd23cc13223a42bf14890b1169fc6cc55e886cf1033226e6524f"
+      "address": "0x120e5a533eec1ef6fcb9d817b46f699ace9adafa",
+      "transactionHash": "0xea20e49cab5e7c7b087e79c059ccddb400fd3fe8371c6276d629bebb3d7b2212"
     },
     "5790": {
       "events": {},
@@ -5163,5 +5163,5 @@
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-28T02:28:48.901Z"
+  "updatedAt": "2018-04-02T14:01:50.982Z"
 }
