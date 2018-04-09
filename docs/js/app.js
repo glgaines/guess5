@@ -52,12 +52,15 @@ App = {
     var _guess1 = $("#input_guess1").val();
     var _guess2 = $("#input_guess2").val();
     var _guess3 = $("#input_guess3").val();
+    var _guess4 = $("#input_guess4").val();
+    var _guess5 = $("#input_guess5").val();
 
-    $("#result_string").hide();
+    $("#result_string").hide(
+    var _guess3 = $("#input_guess3").val(););
 
     App.contracts.Guess4.deployed().then(function(instance) {
       _instance = instance;
-      return _instance.createGuesses(_guess0, _guess1, _guess2, _guess3,{from:App.account,gas: 500000})
+      return _instance.createGuesses(_guess0, _guess1, _guess2, _guess3, _guess4, _guess5, {from:App.account,gas: 500000})
     }).then(function(result) {
       console.log(result)
       //return _instance.testCalls();
@@ -69,7 +72,9 @@ App = {
       $("#correct_1").text(result[0][1].toNumber());
       $("#correct_2").text(result[0][2].toNumber());
       $("#correct_3").text(result[0][3].toNumber());
-      console.log(result[0][4].toNumber());
+      $("#correct_4").text(result[0][4].toNumber());
+      $("#correct_5").text(result[0][5].toNumber());
+      console.log(result[0][6].toNumber());
      });
 
   // testCalls: function() {
@@ -83,7 +88,10 @@ App = {
       $("#correct_1").text(array[1].toNumber());
       $("#correct_2").text(array[2].toNumber());
       $("#correct_3").text(array[3].toNumber());
-      console.log(array[4].toNumber());
+      $("#correct_3").text(array[4].toNumber());
+      $("#correct_3").text(array[5].toNumber());
+
+      console.log(array[6].toNumber());
     });
   }
 }

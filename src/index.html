@@ -18,7 +18,7 @@
 				</div>
 				<div class="" id="results">
 					<h2 class="text-center" id="result_string">Pick four Single Digit Numbers</h2>
-					<p id = "guessHelp" class="form-text text-muted">Please pick 0 - 9 for all 4 guesses then Submit.
+					<p id = "guessHelp" class="form-text text-muted">Please pick 0 - 9 for all 6 guesses then Submit.
 							 The Correct picks for that submission are available.  If you get all four guesses correct, you will receive the FLAG.</p>
 				</div>
 			 	<form class="" action="index.html" method="post">
@@ -46,6 +46,18 @@
 							<input type="number" min="0" max="9" step="1" value="0" name="guess3" id="input_guess3">
 						</div>
 					</div>
+					<div class="form-group row">
+						<label for="guess4" class="col-sm-2 col-form-label">guess 4</label>
+						<div class="col-sm-10">
+							<input type="number" min="0" max="9" step="1" value="0" name="guess4" id="input_guess4">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="guess5" class="col-sm-2 col-form-label">guess 5</label>
+						<div class="col-sm-10">
+							<input type="number" min="0" max="9" step="1" value="0" name="guess5" id="input_guess5">
+						</div>
+					</div>
 					<button type="submit" class="btn btn-primary" onclick="App.createGuesses(); return false;">Submit</button>
 				</form>
 				<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#correctModal">Show the Correct Calls</button>
@@ -64,6 +76,8 @@
 								 <li class = "list-group-item" id="correct_1">Please Submit Guess</li>
 								 <li class = "list-group-item" id="correct_2">Please Submit Guess</li>
 								 <li class = "list-group-item" id="correct_3">Please Submit Guess</li>
+								 <li class = "list-group-item" id="correct_4">Please Submit Guess</li>
+								 <li class = "list-group-item" id="correct_5">Please Submit Guess</li>
 							 </ul>
 						 </div>
 					 </div>
