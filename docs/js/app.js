@@ -41,7 +41,7 @@ App = {
   initContract: function() {
     $.getJSON('Guess6.json', function(guess6Artifact) {
       //use to instantiate truffle contract abstraction
-      App.contracts.Guess6 = TruffleContract(guess4Artifact);
+      App.contracts.Guess6 = TruffleContract(guess6Artifact);
       //  connect contract to provider for contract
       App.contracts.Guess6.setProvider(App.web3Provider);
     })
