@@ -39,11 +39,11 @@ App = {
   },
 
   initContract: function() {
-    $.getJSON('Guess4.json', function(guess4Artifact) {
+    $.getJSON('Guess6.json', function(guess6Artifact) {
       //use to instantiate truffle contract abstraction
-      App.contracts.Guess4 = TruffleContract(guess4Artifact);
+      App.contracts.Guess6 = TruffleContract(guess4Artifact);
       //  connect contract to provider for contract
-      App.contracts.Guess4.setProvider(App.web3Provider);
+      App.contracts.Guess6.setProvider(App.web3Provider);
     })
   },
 
@@ -58,7 +58,7 @@ App = {
     $("#result_string").hide(
     var _guess3 = $("#input_guess3").val(););
 
-    App.contracts.Guess4.deployed().then(function(instance) {
+    App.contracts.Guess6.deployed().then(function(instance) {
       _instance = instance;
       return _instance.makeGuessesArray(_guess0, _guess1, _guess2, _guess3, _guess4, _guess5, {from:App.account,gas: 500000})
     }).then(function(result) {
