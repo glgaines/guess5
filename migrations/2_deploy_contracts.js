@@ -1,5 +1,5 @@
-var Guess4 = artifacts.require("./guess4");
+var Guess6 = artifacts.require("./guess6");
 
 module.exports = function(deployer) {
-  deployer.deploy(Guess4);
+  deployer.deploy(Guess6);
 }
