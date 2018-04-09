@@ -55,8 +55,8 @@ App = {
     var _guess4 = $("#input_guess4").val();
     var _guess5 = $("#input_guess5").val();
 
-    $("#result_string").hide(
-    var _guess3 = $("#input_guess3").val(););
+  //  $("#result_string").hide(
+  //  var _guess3 = $("#input_guess3").val(););
 
     App.contracts.Guess6.deployed().then(function(instance) {
       _instance = instance;
